@@ -3,3 +3,5 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-REQUEST_FILENAME
 
 RewriteRule .* index.html?cmsquerystring=$0 [QSA]
+
+Access-Control-Allow-Origin
